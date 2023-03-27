@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:hsl(32, 18%, 81%)
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 10px 10px 0px;
+}
+.container-texto{
+    padding: 35px;
+}
+.container img{
+    height: 430px;
+    border-radius: 10px 0px 0px 10px;
+}
+.container .perfume{
+    color: #777;
+    padding-bottom: 20px;
+}
+.container-texto h1{
+    width: 200px;
+    line-height: 30px;
+    padding-bottom:25px;
+}
+.container .descricao{
+    color: #777;
+    font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+.container .preco{
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.container .preco1{
+    color: #155f1b;
+    font-size: 30px;
+    padding-right: 15px;
+    font-weight: 600;
+}
+.container .preco2{
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.container .botao{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    background-color: #295d2e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container .botao:hover{
+    background-color: hsl(158, 37%, 32%);
+}
+.container .botao img{
+    height: 15px;
+}
