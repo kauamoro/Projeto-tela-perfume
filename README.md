@@ -1,4 +1,4 @@
 #Resultado do Projeto
 
-![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
+![image](https://github.com/user-attachments/assets/98381f1d-a572-4f6d-a260-0282390bb22c)
 
